@@ -53,11 +53,15 @@
 }
 
 .movie__genres {
+  display: flex;
+  flex-wrap: wrap;
   margin: 1.25rem 0;
 }
 
 .movie__genre {
   padding: .5rem;
+  margin-right: 5px;
+  margin-top: 5px;
   border: 2px solid white;
   border-radius: 20px;
 }
@@ -86,12 +90,6 @@
   bottom: 120px;
   display: flex;
   justify-content: space-between;
-  margin-left: 50%;
-  transform: translateX(-50%);
-  -webkit-transform: translateX(-50%);
-  -moz-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  -o-transform: translateX(-50%);
 }
 
 .movie__links .col {
@@ -104,7 +102,7 @@
 }
 
 .movie__heading {
-  font-size: 2.2rem;
+  font-size: 2rem;
 }
 
 .movie__Button {
